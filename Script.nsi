@@ -258,7 +258,7 @@ Section "XIInstaller" XIInstaller
   DetailPrint "Building Shortcuts..."
   ; Create a desktop shortcut for the game launcher (Ashita)
   SetOutPath "$INSTDIR\Ashita\"
-  CreateShortCut "$DESKTOP\Play XI.lnk" "$INSTDIR\Ashita\Ashita-cli.exe" "omega.ini"
+  CreateShortCut "$DESKTOP\Play XI.lnk" "$INSTDIR\Ashita\Ashita-cli.exe" "server.ini"
 
   ; Create a Start Menu shortcut
   createDirectory "$SMPROGRAMS\XIGAME"
